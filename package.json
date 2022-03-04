@@ -1,0 +1,21 @@
+{
+  "name": "limehome-plugin",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.12.3",
+    "@material-ui/icons": "^4.11.2",
+    "@twilio/flex-plugin-scripts": "5.0.9-beta.0",
+    "@twilio/flex-ui": "^1",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-emotion": "9.2.12"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1",
+    "react-test-renderer": "16.5.2"
+  }
+}
