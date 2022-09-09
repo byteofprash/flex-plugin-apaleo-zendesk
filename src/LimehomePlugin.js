@@ -29,10 +29,10 @@ export default class LimehomePlugin extends FlexPlugin {
     }
 
     manager.updateConfig(configuration);
-    flex.MainHeader.defaultProps.logoUrl = '/limehomeLogo.png'
+    flex.MainHeader.defaultProps.logoUrl = 'https://zendesk-3275.twil.io/limehomeLogo.png'
 
     flex.CRMContainer.Content.replace(
-      <MyComponent key="sample" />
+      <MyComponent key="sample" custID="THLGODHQ-1" />
     ); //  Add my component here
 
 
